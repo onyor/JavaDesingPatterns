@@ -6,6 +6,11 @@ import Facade.Gecikme.GecikmeZammiHesaplamaService;
 import Facade.Tahsilat.TahsilatKontrolService;
 import Facade.Tahsilat.Kredikarti.KrediKartiService;
 
+
+/**
+ * İstediğin tüm fonksiyonları kullan ama dışarıya basit biir method aç!
+ *
+ */
 import java.math.BigDecimal;
 
 public class TahsilatFacade {

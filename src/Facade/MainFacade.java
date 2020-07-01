@@ -13,13 +13,13 @@ public class MainFacade {
         TahsilatFacade tahsilatFacade=new TahsilatFacade();
 
         Long id=10L;
-        BigDecimal borcTutar = new BigDecimal(10);
+        BigDecimal borcTutar = new BigDecimal(100);
         EnumBorcTuru borcTuru=EnumBorcTuru.NORMAL;
-        Date vadeTarihi = DateUtil.tarihOlustur("01.01.2020");
+        Date vadeTarihi = DateUtil.tarihOlustur("02.04.2020");
 
         Borc borc=new Borc(id, borcTuru,borcTutar,vadeTarihi);
 
-        OdemeBilgileri odemeBilgileri = new OdemeBilgileri("Onur Yıldız", "1032 5487 4585 5485", 01L, 2023L, 123L);
+        OdemeBilgileri odemeBilgileri = new OdemeBilgileri("Seçil Yıldız", "1032 5487 4585 5485", 01L, 2023L, 123L);
 
         boolean isSuccess = tahsilatFacade.tahsilatYap(borc, odemeBilgileri);
 

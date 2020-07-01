@@ -21,6 +21,7 @@ public class KrediKartiService {
         boolean yeterliLimitVar = isYeterliLimitVar(odemeBilgileri, odenecekTutar);
 
         if (!yeterliLimitVar) {
+            System.out.println("Kredi kartından "+odenecekTutar+" TL tahsil edilemeiştir.");
             return false;
         }
         System.out.println("Kredi kartından "+odenecekTutar+" TL tahsil edilmiştir.");
