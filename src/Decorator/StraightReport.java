@@ -2,6 +2,8 @@ package Decorator;
 
 /**
  * Düz Rapor
+ * Normalde burayı extend edecektik çizgili/imzalı/küçük olarak
+ * Buna gerek kalmayacak.
  */
 public class StraightReport implements IReport {
 

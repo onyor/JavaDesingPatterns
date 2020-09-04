@@ -27,7 +27,6 @@ public class MainDecorator {
 
     private static String linedReportReturn(String content) {
         StraightReport straightReport = new StraightReport(content);
-
         LinedReportDecorator linedReportDecorator = new LinedReportDecorator(straightReport);
 
         return linedReportDecorator.getText();

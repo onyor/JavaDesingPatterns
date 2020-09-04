@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c286b66-130f-4703-bba8-74d1c96673ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/onur_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/IReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/LinedReportDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/MainDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ReportDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ReportUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/SignatureReportDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/SmallReportDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/StraightReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Decorator/StraightReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/Decorator/StraightReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/MainDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/MainDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/StraightReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator/StraightReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,10 +151,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593596467941" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1593632378283">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1593680270204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593632378283" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593680270204" />
     <state x="2685" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357139121" />
     <state x="664" y="203" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1593195151336">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -174,30 +168,30 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2634" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593356807618" />
-    <state width="1921" height="391" key="GridCell.Tab.0.bottom" timestamp="1593633144626">
+    <state width="1921" height="222" key="GridCell.Tab.0.bottom" timestamp="1597237599666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="391" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593633144626" />
+    <state width="1921" height="222" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597237599666" />
     <state width="1921" height="185" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state width="1921" height="391" key="GridCell.Tab.0.center" timestamp="1593633144626">
+    <state width="1921" height="222" key="GridCell.Tab.0.center" timestamp="1597237599666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="391" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593633144626" />
+    <state width="1921" height="222" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597237599666" />
     <state width="1921" height="185" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state width="1921" height="391" key="GridCell.Tab.0.left" timestamp="1593633144626">
+    <state width="1921" height="222" key="GridCell.Tab.0.left" timestamp="1597237599666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="391" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593633144626" />
+    <state width="1921" height="222" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597237599666" />
     <state width="1921" height="185" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state width="1921" height="391" key="GridCell.Tab.0.right" timestamp="1593633144626">
+    <state width="1921" height="222" key="GridCell.Tab.0.right" timestamp="1597237599666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="391" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593633144626" />
+    <state width="1921" height="222" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597237599666" />
     <state width="1921" height="185" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1593628737075">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599252538694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593628737075" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599252538694" />
     <state x="690" y="275" key="extract.method.dialog" timestamp="1593632930221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
