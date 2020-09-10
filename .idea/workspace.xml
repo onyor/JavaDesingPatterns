@@ -2,15 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c286b66-130f-4703-bba8-74d1c96673ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/MainInterpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/dil/Dil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/dil/EnumDil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/dil/KargaDili.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/dil/KusDili.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/yorumlayici/Interpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/yorumlayici/KargaDiliInterpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interpreter/yorumlayici/KusDiliInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Composite/Urun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Decorator/IReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Decorator/LinedReportDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Decorator/MainDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Decorator/ReportDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Decorator/ReportUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Decorator/SignatureReportDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Decorator/SmallReportDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Decorator/StraightReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Borc/Borc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Borc/OdemeBilgileri.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Enum/EnumBorcTuru.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Gecikme/GecikmeZammiHesaplamaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Gecikme/GecikmeZammiOraniEntityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Hukuksal/HukuksalKontrolService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Hukuksal/HukuksalSurecEntityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/MainFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Tahsilat/Kredikarti/KrediKartiKontrolService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Tahsilat/Kredikarti/KrediKartiService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Tahsilat/TahsilatKontrolService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/TahsilatFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Facade/Yapilandirma/YapilandirmaKontrolService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Factory/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Factory/Hatchback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Factory/ICar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Factory/MainFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Factory/Sedan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Interpreter/MainInterpreter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Interpreter/dil/Dil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Interpreter/dil/EnumDil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Interpreter/dil/KargaDili.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Interpreter/dil/KusDili.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Interpreter/yorumlayici/Interpreter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Interpreter/yorumlayici/KargaDiliInterpreter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Interpreter/yorumlayici/KusDiliInterpreter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Mediator/ChatMediatorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Mediator/IChatMediator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Mediator/MainMediator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Mediator/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Mediator/UserImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Strategy/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Strategy/IStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Strategy/MainStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Strategy/OperationAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Strategy/OperationMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Strategy/OperationSubstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/MainVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/islemler/CovidAgirHastaSayisiVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/islemler/CovidHastaSayisiVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/islemler/CovidIyilesenSayisiVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/islemler/CovidOlumSayisiVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/islemler/CovidZaturreSayisiVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/islemler/HastaHesaplaUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/saglikBakanligi/EnumHastaDurumu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/saglikBakanligi/EnumHastalik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/saglikBakanligi/Hasta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/saglikBakanligi/Hastane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/saglikBakanligi/Il.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/saglikBakanligi/Ulke.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/Visitor/saglikBakanligi/VisitorDesingPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/IReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Decorator/IReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/LinedReportDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Decorator/LinedReportDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/MainDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Decorator/MainDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/ReportDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Decorator/ReportDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/ReportUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Decorator/ReportUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/SignatureReportDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Decorator/SignatureReportDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/SmallReportDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Decorator/SmallReportDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/StraightReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Decorator/StraightReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Borc/Borc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Borc/Borc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Borc/OdemeBilgileri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Borc/OdemeBilgileri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Enum/EnumBorcTuru.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Enum/EnumBorcTuru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Gecikme/GecikmeZammiHesaplamaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Gecikme/GecikmeZammiHesaplamaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Gecikme/GecikmeZammiOraniEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Gecikme/GecikmeZammiOraniEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Hukuksal/HukuksalKontrolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Hukuksal/HukuksalKontrolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Hukuksal/HukuksalSurecEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Hukuksal/HukuksalSurecEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/MainFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/MainFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Tahsilat/Kredikarti/KrediKartiKontrolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Tahsilat/Kredikarti/KrediKartiKontrolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Tahsilat/Kredikarti/KrediKartiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Tahsilat/Kredikarti/KrediKartiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Tahsilat/TahsilatKontrolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Tahsilat/TahsilatKontrolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/TahsilatFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/TahsilatFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facade/Yapilandirma/YapilandirmaKontrolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Structural/Facade/Yapilandirma/YapilandirmaKontrolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Creational/Factory/CarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Hatchback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Creational/Factory/Hatchback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ICar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Creational/Factory/ICar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/MainFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Creational/Factory/MainFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/Sedan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Creational/Factory/Sedan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/MainInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Interpreter/MainInterpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/dil/Dil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Interpreter/dil/Dil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/dil/EnumDil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Interpreter/dil/EnumDil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/dil/KargaDili.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Interpreter/dil/KargaDili.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/dil/KusDili.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Interpreter/dil/KusDili.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/yorumlayici/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Interpreter/yorumlayici/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/yorumlayici/KargaDiliInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Interpreter/yorumlayici/KargaDiliInterpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interpreter/yorumlayici/KusDiliInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Interpreter/yorumlayici/KusDiliInterpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/ChatMediatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Mediator/ChatMediatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/IChatMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Mediator/IChatMediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/MainMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Mediator/MainMediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Mediator/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mediator/UserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Mediator/UserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Strategy/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/IStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Strategy/IStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/MainStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Strategy/MainStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/OperationAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Strategy/OperationAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/OperationMultiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Strategy/OperationMultiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/OperationSubstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Strategy/OperationSubstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/MainVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/MainVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/islemler/CovidAgirHastaSayisiVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/islemler/CovidAgirHastaSayisiVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/islemler/CovidHastaSayisiVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/islemler/CovidHastaSayisiVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/islemler/CovidIyilesenSayisiVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/islemler/CovidIyilesenSayisiVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/islemler/CovidOlumSayisiVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/islemler/CovidOlumSayisiVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/islemler/CovidZaturreSayisiVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/islemler/CovidZaturreSayisiVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/islemler/HastaHesaplaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/islemler/HastaHesaplaUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/EnumHastaDurumu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/saglikBakanligi/EnumHastaDurumu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/EnumHastalik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/saglikBakanligi/EnumHastalik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/Hasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/saglikBakanligi/Hasta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/Hastane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/saglikBakanligi/Hastane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/Il.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/saglikBakanligi/Il.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/Ulke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/saglikBakanligi/Ulke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/VisitorDesingPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpattrens/Behavioural/Visitor/saglikBakanligi/VisitorDesingPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +135,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -60,13 +174,13 @@
       <recent name="Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainInterpreter">
-    <configuration name="MainDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Decorator.MainDecorator" />
+  <component name="RunManager" selected="Application.MainVisitor">
+    <configuration name="MainDecorator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.desingpattrens.Structural.Decorator.MainDecorator" />
       <module name="DesingPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Decorator.*" />
+          <option name="PATTERN" value="main.java.desingpattrens.Structural.Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainFacade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Facade.MainFacade" />
+    <configuration name="MainFacade" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.desingpattrens.Structural.Facade.MainFacade" />
       <module name="DesingPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Facade.*" />
+          <option name="PATTERN" value="main.java.desingpattrens.Structural.Facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainInterpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interpreter.MainInterpreter" />
+    <configuration name="MainFactory" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.desingpattrens.Creational.Factory.MainFactory" />
       <module name="DesingPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interpreter.dil.*" />
+          <option name="PATTERN" value="main.java.desingpattrens.Creational.Factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,8 +214,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.desingpatterns.behavioural.Visitor.Strategy.MainStrategy" />
+    <configuration name="MainInterpreter" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.desingpattrens.Behavioural.Interpreter.MainInterpreter" />
+      <module name="DesingPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.desingpattrens.Behavioural.Interpreter.dil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMediator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.desingpattrens.Behavioural.Mediator.MainMediator" />
+      <module name="DesingPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.desingpattrens.Behavioural.Mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainStrategy" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.desingpattrens.Behavioural.Strategy.MainStrategy" />
       <module name="DesingPatterns" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.desingpatterns.behavioural.Visitor.MainVisitor" />
+    <configuration name="MainVisitor" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Behavioural.Visitor.Visitor.MainVisitor" />
       <module name="DesingPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.desingpatterns.behavioural.Visitor.*" />
+          <option name="PATTERN" value="Behavioural.Interpreter.Visitor.Visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +266,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Behavioural.Interpreter.Visitor.MainVisitor" />
+      <module name="DesingPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Behavioural.Interpreter.Visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainVisitor" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.java.desingpattrens.Behavioural.Visitor.MainVisitor" />
+      <module name="DesingPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.desingpattrens.Behavioural.Visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainDecorator" />
+      <item itemvalue="Application.MainFacade" />
+      <item itemvalue="Application.MainFactory" />
+      <item itemvalue="Application.MainMediator" />
+      <item itemvalue="Application.MainStrategy" />
+      <item itemvalue="Application.MainInterpreter" />
+      <item itemvalue="Application.MainVisitor" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainInterpreter" />
-        <item itemvalue="Application.MainVisitor" />
-        <item itemvalue="Application.MainDecorator" />
-        <item itemvalue="Application.MainFacade" />
-        <item itemvalue="Application.MainStrategy" />
+        <item itemvalue="Application.MainVisitor (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,10 +333,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593263259810" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593596467941">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599770641092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593596467941" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599770641092" />
     <state x="765" y="229" width="390" height="792" key="#com.intellij.ide.util.MemberChooser" timestamp="1599746407806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -184,25 +355,25 @@
     </state>
     <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599750403688" />
     <state x="2634" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593356807618" />
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1599753427710">
+    <state width="1921" height="222" key="GridCell.Tab.0.bottom" timestamp="1599771336543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427710" />
+    <state width="1921" height="222" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599771336543" />
     <state width="1921" height="185" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1599753427709">
+    <state width="1921" height="222" key="GridCell.Tab.0.center" timestamp="1599771336543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427709" />
+    <state width="1921" height="222" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599771336543" />
     <state width="1921" height="185" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1599753427709">
+    <state width="1921" height="222" key="GridCell.Tab.0.left" timestamp="1599771336542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427709" />
+    <state width="1921" height="222" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599771336542" />
     <state width="1921" height="185" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1599753427709">
+    <state width="1921" height="222" key="GridCell.Tab.0.right" timestamp="1599771336543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427709" />
+    <state width="1921" height="222" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599771336543" />
     <state width="1921" height="185" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
     <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1599753427713">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -224,10 +395,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599746465983" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599739833665">
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1599769968876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599739833665" />
+    <state x="776" y="298" key="chooseDestDirectoryDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599769968876" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599769134909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599769134909" />
     <state x="690" y="275" key="extract.method.dialog" timestamp="1599753046290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
