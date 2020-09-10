@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c286b66-130f-4703-bba8-74d1c96673ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Visitor/MainVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/islemler/CovidAgirHastaSayisiVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/islemler/CovidHastaSayisiVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/islemler/CovidIyilesenSayisiVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/islemler/CovidOlumSayisiVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/islemler/CovidZaturreSayisiVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/islemler/HastaHesaplaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/EnumHastaDurumu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/EnumHastalik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/Hasta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/Hastane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/Il.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/Ulke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visitor/saglikBakanligi/VisitorDesingPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/MainInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/dil/Dil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/dil/EnumDil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/dil/KargaDili.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/dil/KusDili.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/yorumlayici/Interpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/yorumlayici/KargaDiliInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interpreter/yorumlayici/KusDiliInterpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,13 +51,16 @@
       <recent name="C:\JavaSyntax\DesingPattern\DesingPatterns\src\Mediator" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Interpreter.yorumlayici" />
+      <recent name="Interpreter.dil" />
       <recent name="Visitor.islemler" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Interpreter" />
       <recent name="Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainVisitor">
+  <component name="RunManager" selected="Application.MainInterpreter">
     <configuration name="MainDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Decorator.MainDecorator" />
       <module name="DesingPatterns" />
@@ -90,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainMediator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mediator.MainMediator" />
+    <configuration name="MainInterpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interpreter.MainInterpreter" />
       <module name="DesingPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mediator.*" />
+          <option name="PATTERN" value="Interpreter.dil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +101,11 @@
       </method>
     </configuration>
     <configuration name="MainStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strategy.MainStrategy" />
+      <option name="MAIN_CLASS_NAME" value="main.java.desingpatterns.behavioural.Visitor.Strategy.MainStrategy" />
       <module name="DesingPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strategy.MainStrategy" />
+          <option name="PATTERN" value="main.java.desingpatterns.behavioural.Visitor.Strategy.MainStrategy" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +114,11 @@
       </method>
     </configuration>
     <configuration name="MainVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Visitor.MainVisitor" />
+      <option name="MAIN_CLASS_NAME" value="main.java.desingpatterns.behavioural.Visitor.MainVisitor" />
       <module name="DesingPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Visitor.*" />
+          <option name="PATTERN" value="main.java.desingpatterns.behavioural.Visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainInterpreter" />
         <item itemvalue="Application.MainVisitor" />
         <item itemvalue="Application.MainDecorator" />
         <item itemvalue="Application.MainFacade" />
         <item itemvalue="Application.MainStrategy" />
-        <item itemvalue="Application.MainMediator" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +154,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="816" height="729" key="#Intentions/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593629325724" />
+    <state x="552" y="178" key="#Notifications" timestamp="1599683726578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599683726578" />
     <state x="552" y="178" key="#Project_Structure" timestamp="1593263259810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -165,51 +166,72 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593596467941" />
-    <state x="765" y="229" width="390" height="792" key="#com.intellij.ide.util.MemberChooser" timestamp="1599338400971">
+    <state x="765" y="229" width="390" height="792" key="#com.intellij.ide.util.MemberChooser" timestamp="1599746407806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" width="390" height="792" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599338400971" />
+    <state x="765" y="229" width="390" height="792" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599746407806" />
     <state x="2685" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357139121" />
     <state x="664" y="203" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1593195151336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="203" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593195151336" />
-    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593367583216">
+    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599683124514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593367583216" />
-    <state x="2634" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593356807618">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599683124514" />
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599750403688">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599750403688" />
     <state x="2634" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593356807618" />
-    <state width="1921" height="222" key="GridCell.Tab.0.bottom" timestamp="1599340971109">
+    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1599753427710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="222" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599340971109" />
+    <state width="1921" height="356" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427710" />
     <state width="1921" height="185" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state width="1921" height="222" key="GridCell.Tab.0.center" timestamp="1599340971109">
+    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1599753427709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="222" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599340971109" />
+    <state width="1921" height="356" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427709" />
     <state width="1921" height="185" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state width="1921" height="222" key="GridCell.Tab.0.left" timestamp="1599340971108">
+    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1599753427709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="222" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599340971108" />
+    <state width="1921" height="356" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427709" />
     <state width="1921" height="185" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state width="1921" height="222" key="GridCell.Tab.0.right" timestamp="1599340971109">
+    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1599753427709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="222" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599340971109" />
+    <state width="1921" height="356" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427709" />
     <state width="1921" height="185" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1593357343745" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599321992343">
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1599753427713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599321992343" />
-    <state x="690" y="275" key="extract.method.dialog" timestamp="1593632930221">
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427713" />
+    <state width="1921" height="356" key="GridCell.Tab.1.center" timestamp="1599753427712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="extract.method.dialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593632930221" />
+    <state width="1921" height="356" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427712" />
+    <state width="1921" height="356" key="GridCell.Tab.1.left" timestamp="1599753427711">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427711" />
+    <state width="1921" height="356" key="GridCell.Tab.1.right" timestamp="1599753427712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753427712" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599746465983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599746465983" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599739833665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599739833665" />
+    <state x="690" y="275" key="extract.method.dialog" timestamp="1599753046290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="extract.method.dialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599753046290" />
     <state x="591" y="235" width="737" height="606" key="find.popup" timestamp="1593196673585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -222,5 +244,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599337514208" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DesingPatterns$MainInterpreter.ic" NAME="MainInterpreter Coverage Results" MODIFIED="1599750539094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Interpreter.*</FILTER>
+    </SUITE>
   </component>
 </project>
