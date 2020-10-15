@@ -20,7 +20,6 @@ public class FiyatHesaplamaUtil {
         for (Paket paket : paketList) {
             toplamTutar = toplamTutar.add(paket.getFiyat());
         }
-
         return  toplamTutar;
     }
 }

@@ -6,6 +6,12 @@ public class Urun implements Fiyatlanabilir{
     private String adi;
     private BigDecimal fiyat;
 
+
+    public Urun(String adi, BigDecimal fiyat) {
+        this.adi = adi;
+        this.fiyat = fiyat;
+    }
+
     public String getAdi() {
         return adi;
     }
@@ -15,11 +21,6 @@ public class Urun implements Fiyatlanabilir{
     }
 
     public void setFiyat(BigDecimal fiyat) {
-        this.fiyat = fiyat;
-    }
-
-    public Urun(String adi, BigDecimal fiyat) {
-        this.adi = adi;
         this.fiyat = fiyat;
     }
 

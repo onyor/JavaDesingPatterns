@@ -14,7 +14,6 @@ public class MainBuilder {
                 .setCocukParki(true)
                 .setOtopark(true)
                 .build();
-
         printEv(ev2);
     }
 
