@@ -1,22 +1,27 @@
 package main.java.desingPattrens.Behavioural.Mediator;
 
+import java.math.BigDecimal;
+
 public class MainMediator {
 
 	public static void main(String[] args) {
-		
-		IChatMediator mediator = new ChatMediatorImpl();
-		
-		User user1 = new UserImpl(mediator, "batux");
-		User user2 = new UserImpl(mediator, "vatux");
-		User user3 = new UserImpl(mediator, "tatux");
-		User user4 = new UserImpl(mediator, "patux");
-		
-		mediator.addUser(user1);
-		mediator.addUser(user2);
-		mediator.addUser(user3);
-		mediator.addUser(user4);
-		
-		user1.send("Hello world !");
+		Kabzimal kabzimal = new Kabzimal();
+
+		DomatesUreticisi ureticiBahadir = new DomatesUreticisi("Bahadır", BigDecimal.valueOf(4), kabzimal);
+		DomatesUreticisi ureticiYusuf = new DomatesUreticisi("Yusuf", BigDecimal.valueOf(3), kabzimal);
+
+		DomatesHalcisi halciAhmet = new DomatesHalcisi("Ahmet", BigDecimal.valueOf(9), kabzimal);
+		DomatesHalcisi halciMehmet = new DomatesHalcisi("Mehmet", BigDecimal.valueOf(7), kabzimal);
+
+		kabzimal.UreticiEkle(ureticiBahadir);
+		kabzimal.UreticiEkle(ureticiYusuf);
+		kabzimal.halciEkle(halciAhmet);
+		kabzimal.halciEkle(halciMehmet);
+
+		ureticiBahadir.urunSat();
+		halciMehmet.urunAl();
+
+
 	}
 
 }
