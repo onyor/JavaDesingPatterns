@@ -2,39 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c286b66-130f-4703-bba8-74d1c96673ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/Araci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/DomatesHalcisi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/DomatesUreticisi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/EnumUrun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/Halci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/Kabzimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/Uretici.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/BridgeIlk/Bilgisayar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/BridgeIlk/BridgeDeneme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/BridgeIlk/Hoparlor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/BridgeIlk/Muzik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/BridgeIlk/Spotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/MainBridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/Muzik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/cihaz/BilgisayarHS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/cihaz/MuzikCalabilenBilgisayar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/cihaz/TelefonHF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/muzikcalar/FizzyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/muzikcalar/IMuzikCihazi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/muzikcalar/SpotifyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/sescihazi/HoparlorCihaz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/sescihazi/ISesCihazi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Observer/Ebeveyn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Observer/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Observer/MainObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Observer/Termometre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Proxy/Calisan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Proxy/CalisanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Proxy/GercekYonetici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Proxy/ISirketBilgileri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Proxy/MainProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Proxy/YoneticiProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Mediator/ChatMediatorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Mediator/IChatMediator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Mediator/MainMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Mediator/MainMediator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Mediator/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Mediator/UserImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/ChatMediatorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/IChatMediator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/MainMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/MainMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/UserImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +55,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="main.java.desingPattrens.Behavioural.Chain" />
-      <recent name="Interpreter" />
-      <recent name="Decorator" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JavaSyntax\DesingPattern\DesingPatterns\src\Mediator" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="main.java.desingPattrens.Structural.Bridge.BridgeIlk" />
@@ -88,11 +65,14 @@
       <recent name="Interpreter.yorumlayici" />
       <recent name="Interpreter.dil" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\JavaSyntax\DesingPattern\DesingPatterns\src\Mediator" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.desingPattrens.Behavioural.Observer" />
+      <recent name="main.java.desingPattrens.Behavioural.Chain" />
+      <recent name="Interpreter" />
+      <recent name="Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainBridge">
+  <component name="RunManager" selected="Application.MainObserver">
     <configuration name="BridgeDeneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.desingPattrens.Structural.Bridge.BridgeIlk.BridgeDeneme" />
       <module name="DesingPatterns" />
@@ -138,19 +118,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.desingPattrens.Behavioural.Chain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainCommand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.desingPattrens.Behavioural.Command.MainCommand" />
-      <module name="DesingPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.desingPattrens.Behavioural.Command.Commands.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,12 +203,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.desingPattrens.Creational.Prototype.MainPrototype" />
+    <configuration name="MainObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.desingPattrens.Behavioural.Observer.MainObserver" />
       <module name="DesingPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.desingPattrens.Creational.Prototype.*" />
+          <option name="PATTERN" value="main.java.desingPattrens.Behavioural.Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.desingPattrens.Structural.Proxy.MainProxy" />
+      <module name="DesingPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.desingPattrens.Structural.Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,28 +308,28 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BridgeDeneme" />
+      <item itemvalue="Application.MainBridge" />
       <item itemvalue="Application.MainBuilder" />
+      <item itemvalue="Application.MainChain" />
       <item itemvalue="Application.MainComposite" />
       <item itemvalue="Application.MainDecorator" />
       <item itemvalue="Application.MainFacade" />
       <item itemvalue="Application.MainFactory" />
       <item itemvalue="Application.MainInterpreter" />
       <item itemvalue="Application.MainMediator" />
+      <item itemvalue="Application.MainObserver" />
+      <item itemvalue="Application.MainProxy" />
       <item itemvalue="Application.MainStrategy" />
       <item itemvalue="Application.MainVisitor" />
-      <item itemvalue="Application.MainChain" />
-      <item itemvalue="Application.MainCommand" />
-      <item itemvalue="Application.MainPrototype" />
-      <item itemvalue="Application.BridgeDeneme" />
-      <item itemvalue="Application.MainBridge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainObserver" />
+        <item itemvalue="Application.MainProxy" />
         <item itemvalue="Application.MainBridge" />
         <item itemvalue="Application.BridgeDeneme" />
         <item itemvalue="Application.MainChain" />
-        <item itemvalue="Application.MainCommand" />
-        <item itemvalue="Application.MainPrototype" />
       </list>
     </recent_temporary>
   </component>
@@ -383,18 +363,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599907982516" />
-    <state x="765" y="8" width="460" height="1032" key="#com.intellij.ide.util.MemberChooser" timestamp="1605971733425">
+    <state x="765" y="8" width="460" height="1032" key="#com.intellij.ide.util.MemberChooser" timestamp="1606332908016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="8" width="460" height="1032" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605971733425" />
+    <state x="765" y="8" width="460" height="1032" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606332908016" />
     <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599683124514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599683124514" />
-    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605970684566">
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606332518172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605970684566" />
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606332518172" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605954246974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -407,38 +387,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1217" y="235" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599856885413" />
-    <state width="1247" height="233" key="GridCell.Tab.0.bottom" timestamp="1605972323716">
+    <state width="1921" height="233" key="GridCell.Tab.0.bottom" timestamp="1607098385902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="233" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605972323716" />
-    <state width="1247" height="233" key="GridCell.Tab.0.center" timestamp="1605972323716">
+    <state width="1921" height="233" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607098385902" />
+    <state width="1921" height="233" key="GridCell.Tab.0.center" timestamp="1607098385902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="233" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605972323716" />
-    <state width="1247" height="233" key="GridCell.Tab.0.left" timestamp="1605972323716">
+    <state width="1921" height="233" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607098385902" />
+    <state width="1921" height="233" key="GridCell.Tab.0.left" timestamp="1607098385902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="233" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605972323716" />
-    <state width="1247" height="233" key="GridCell.Tab.0.right" timestamp="1605972323716">
+    <state width="1921" height="233" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607098385902" />
+    <state width="1921" height="233" key="GridCell.Tab.0.right" timestamp="1607098385902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="233" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605972323716" />
-    <state width="1247" height="233" key="GridCell.Tab.1.bottom" timestamp="1605972323721">
+    <state width="1921" height="233" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607098385902" />
+    <state width="1921" height="233" key="GridCell.Tab.1.bottom" timestamp="1607098385903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="233" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605972323721" />
-    <state width="1247" height="233" key="GridCell.Tab.1.center" timestamp="1605972323720">
+    <state width="1921" height="233" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607098385903" />
+    <state width="1921" height="233" key="GridCell.Tab.1.center" timestamp="1607098385903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="233" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605972323720" />
-    <state width="1247" height="233" key="GridCell.Tab.1.left" timestamp="1605972323720">
+    <state width="1921" height="233" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607098385903" />
+    <state width="1921" height="233" key="GridCell.Tab.1.left" timestamp="1607098385903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="233" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605972323720" />
-    <state width="1247" height="233" key="GridCell.Tab.1.right" timestamp="1605972323720">
+    <state width="1921" height="233" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607098385903" />
+    <state width="1921" height="233" key="GridCell.Tab.1.right" timestamp="1607098385903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1247" height="233" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605972323720" />
+    <state width="1921" height="233" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607098385903" />
     <state x="775" y="454" key="ReplaceDuplicatesPrompt" timestamp="1602664792251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -451,10 +431,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="298" key="chooseDestDirectoryDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599769968876" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1605948789846">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1607099761796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605948789846" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607099761796" />
     <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599847331590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -463,6 +443,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="604" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600275573061" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606331407267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606331407267" />
     <state x="1242" y="0" width="685" height="1047" key="dock-window-1" timestamp="1605959205780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -475,14 +459,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1069" y="149" width="737" height="663" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599856900905" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1605958912117">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1606330164487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605958912117" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599337514208">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606330164487" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606331202327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599337514208" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606331202327" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -526,6 +510,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/Kabzimal.java</url>
           <line>45</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Observer/Termometre.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Observer/Termometre.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Chain/KargoSirketi.java</url>
