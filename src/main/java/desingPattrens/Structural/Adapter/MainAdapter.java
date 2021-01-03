@@ -19,7 +19,7 @@ public class MainAdapter {
      * Başka bir örnek!!
      * Aracı bir uygulama yazalım.
      * Bir servisten veri alıyoruz, başka bir servise paslıyoruz.
-     * Gelen verileri XML formatın da alıyoruz diyelim. Fakat paslamak istediğim servis de bendeb JSON formatın da istiyor.
+     * Gelen verileri XML formatın da alıyoruz diyelim. Fakat paslamak istediğim servis de benden JSON formatın da istiyor.
      * XML <-> JSON adapter yazmamız gerekiyor.
      * @param args
      */

@@ -21,6 +21,6 @@ public abstract class Asker {
     public void tara(){
         for (int i = 0; i < 5; i++) {
             atesEt();
-        }
+}
     }
 }

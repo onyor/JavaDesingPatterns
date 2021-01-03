@@ -5,6 +5,7 @@ public class Bilgisayar {
     private Hoparlor hoparlor;
 
     public Bilgisayar(){
+        System.out.println("Bilgisayar Çalıştı!");
         spotify=new Spotify();
         hoparlor=new Hoparlor();
     }
@@ -26,7 +27,6 @@ public class Bilgisayar {
     }
 
     public void muzikCal(Muzik muzik) {
-        System.out.println("Bilgisayar Çalıştı!");
         String ses = spotify.muzikCal(muzik);
         hoparlor.sesiCal(ses);
 

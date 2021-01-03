@@ -5,6 +5,7 @@ package main.java.desingPattrens.Structural.Proxy;
 public class MainProxy {
 
     /**
+     * Proxy -> Kelime anlamı "Vekil"
      * Asıl işi yapan nesne yerine, vekil bir nesne kullanılmasına olanak tanır.
      * Asıl nesneye erişmeden önce işlemler ya da kontroller yapabiliriz.
      * -A remote Proxy  -> Farklı adres alanında ki temsilci için locak bir temsilci oluşturmamızı sağlar.

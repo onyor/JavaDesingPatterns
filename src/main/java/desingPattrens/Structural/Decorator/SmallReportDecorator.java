@@ -1,14 +1,9 @@
 package main.java.desingPattrens.Structural.Decorator;
 
-/**
- *
- *
- */
 public class SmallReportDecorator extends ReportDecorator {
     private int width;
 
     public SmallReportDecorator(IReport report) {
-
         super(report);
         this.width=30;
     }

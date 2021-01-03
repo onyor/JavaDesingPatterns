@@ -3,6 +3,21 @@ package main.java.desingPattrens.Creational.Prototype;
 import java.util.Date;
 
 public class MainPrototype {
+    /**
+     * Baz aldığım bir şey var ve bu baz aldığım şeye göre yeni şeyler üretirim. baz aldığım şeyde benim prototype' ım oluyor.
+     * Bu desing pattern' inin temeli klon methoduna dayanıyor.
+     * New operator' u kullanmıyoruz. Var olan bir nesneyi kopyalıyoruz.
+     * Kopyaladığımız bizim prototype' imiz oluyor, yenisi de klon'umuz olmuş oluyor.
+     * @param args
+     */
+
+    /**
+     * Biz bu prototype' i bir belge üzerinden gösterelim.
+     * Belge türünde bir nesnemiz var ve bu nesne ilk oluşturduğunda 3 sn' lik bir zaman harcıyor olsun.
+     * Bu sınıfın clone' unu oluşturarak tekrardan bu nesneyi kullandığımızda zamandan kar ediyoruz.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
 
         long id1 = 1L;

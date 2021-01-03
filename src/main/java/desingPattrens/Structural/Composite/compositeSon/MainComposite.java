@@ -4,6 +4,20 @@ package main.java.desingPattrens.Structural.Composite.compositeSon;
 import java.math.BigDecimal;
 
 public class MainComposite {
+    /**
+     * Composite -> Bileşik
+     * Nesneler arasında bir hiyerarşi veya ağaç yapısı kurgusu varsa bu pattern' ı kullanabilir.
+     *
+     *
+     * Örn:
+     * Bir alışveriş programı yazıyor olalım.
+     * Kullanıcı isterse paketler oluşturabilsin yada isterse ürünleri tek ekleyebilsin.
+     *
+     * Alışveriş Sepeti => TeknolojiPaketi[{Ses Sistemi}+{Kulaklık}] + KumanyaPaketi[{Üzüm}+{Elma}] + {DenemeUrun1} + {DenemeUrun2}
+     *
+     * Hepsinin toplamından bir fiyat çıkacak ve bu fiyatı ödeyeceğiz.
+     * @param args
+     */
     public static void main(String[] args) {
         Urun domates = new Urun("Domates", BigDecimal.TEN);
         Urun patates = new Urun("Patates", BigDecimal.ONE);

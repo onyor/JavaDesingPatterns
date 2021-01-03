@@ -15,10 +15,10 @@ public class MainTemplate {
 
     /**
      * Örn:
-     * Kuruma verilecek bir dilekçe düşünün ve sürekli kuruma aynı dilekçenin bir çok farklı örneklerinden geliyo olsun.
-     * Bu dilekçelerin analizi ve okunması zor olacaktır.
-     * Biz bu farklı farklı dilekçe örneklerinde asıl iskeleti(gerekli olan bilgileri) çıkartıp bir şablon yaparsak.
-     * Artık dilekçeler daha okunabilir ve kolay yazılabilir olacaktır!
+         * Kuruma verilecek bir dilekçe düşünün ve sürekli kuruma aynı dilekçenin bir çok farklı örneklerinden geliyo olsun.
+         * Bu dilekçelerin analizi ve okunması zor olacaktır.
+         * Biz bu farklı farklı dilekçe örneklerinde asıl iskeleti(gerekli olan bilgileri) çıkartıp bir şablon yaparsak.
+         * Artık dilekçeler daha okunabilir ve kolay yazılabilir olacaktır!
      * @param args
      */
     public static void main(String[] args) {

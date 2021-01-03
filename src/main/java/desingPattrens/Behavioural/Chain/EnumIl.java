@@ -5,7 +5,8 @@ public enum EnumIl {
     ANKARA("Ankara"),
     ANTALYA("Antalya"),
     CANKIRI("Çankırı"),
-    KARS("Kars");
+    KARS("Kars"),
+    AZERBEYCAN("Azerbeycan");
 
     private String il;
 

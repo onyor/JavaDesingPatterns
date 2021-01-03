@@ -1,11 +1,28 @@
 package main.java.desingPattrens.Structural.Decorator;
 
 public class MainDecorator {
+    /**
+     * Dekorator -> Dekoratör ("Bir işe uygun olarak dekor hazırlayan.")
+     * Bazen nesnelerin bir birinden türemesine çalışma zamanın da ihtiyaç duyulur.
+     * Fakat sınıf yapılarını, sınıf hiyerarşilerini run time da değiştiremeyiz.
+     * Ama böyle bir hiyerarşiye ihtiyacımız vardır.
+     * Tam bu sorunlara çözüm ürete bilmek için Decorator düşünülmüş.
+     *
+     * Örn:
+     * Bir rapor tasarım programımız olduğunu düşünelim.
+     * 3 tane taslağımız var. Çizgili, Küçük ve İmza kutucuklu olsun
+     * Bizde buna göre bir tasarım yaptık.
+     *
+     * İstediğimiz zaman, istediğimiz taslağı extend ederek.
+     * Taslaklarla istediğimiz kombinasyonu yapabiliyor olmalıyız.
+     * Ve bunu runtime da yapabiliyor olmalıyız.
+     * @param args
+     */
     public static void main(String[] args) {
         String content = getReportContent();
         //String text = straightReportReturn(content);
-        //String text = linedReportReturn(content);
-        String text = linedSmallReportReturn(content);
+        String text = linedReportReturn(content);
+        //String text = linedSmallReportReturn(content);
         //String text = signatureLinedSmallReportReturn(content);
         System.out.println(text);
     }

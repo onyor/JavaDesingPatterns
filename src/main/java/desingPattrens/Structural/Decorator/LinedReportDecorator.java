@@ -1,9 +1,5 @@
 package main.java.desingPattrens.Structural.Decorator;
 
-/**
- * Çizgili Rapor Decorator
- */
-
 public class LinedReportDecorator extends ReportDecorator {
     public LinedReportDecorator(IReport report) {
         super(report);

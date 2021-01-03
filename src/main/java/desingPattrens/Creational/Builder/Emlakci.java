@@ -21,5 +21,5 @@ public class Emlakci {
         System.out.println("Ev eklendi -> " + ev);
 
         System.out.println();
-    }
+}
 }

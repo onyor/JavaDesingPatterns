@@ -8,6 +8,31 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class MainFacade {
+    /***
+     * Facade -> Cephe
+     * Uygulamamızı kendi karmaşıklığından ayırıp basit haline dışarıya açmamızı sağlayan bir yapısal bir tasarım kalıbıdır.
+     * Uygulamamızı açıcağımız bir client olduğunu düşünelim bu client neye ihtiyaç duyacaksa onu verecek geri kalan bütün karmaşıklıktan onu arındırmaktır facade' ın amacı.
+     *
+     * Örn:
+     * Bir ödeme sistemi programı yazdığımızı düşünelim.
+     * Bu ödeme sistemlerinde ana tema borç.
+     * Bir kişinin borcu vardır ve bunu tahsil ederiz.
+     * Ve bu her zaman kolay değildir. Gecikme Zammı ve davalı olma durumları söz konusu olabilir. Borcun durumunu etkiler.
+     * - Yapılandırma
+     * - Gecikme Zammı
+     * - Hukuksal işlem
+     * - Borç
+     *
+     * Karmaşık bir olay söz konusu.
+     * Burdaki bu karışıklığı uygulamamıza vereceğimiz client'lerden ayırmamız gerekiyor.
+     * Bunudanasıl yapıyoruz.
+     * Client'dan borçları ve kredi kartlarını alıyoruz.
+     * Bunu kendi ödeme sistemleri programımıza göndereceğiz.
+     * Ve tahsilat yap.  Result: Onaylandı/ Reddedildi
+     * Client sadece bize borç bilgilerini ve kredi kartı bilgilerini gönderecek
+     * İçeride ne yapıldığını hangi kontroller var bunu bilmeyecek.
+     * @param args
+     */
     //psvm
     public static void main(String[] args) {
         TahsilatFacade tahsilatFacade=new TahsilatFacade();

@@ -1,6 +1,20 @@
 package main.java.desingPattrens.Creational.Builder;
 
 public class MainBuilder {
+    /**
+     * Builder -> Kelime anlamı Kurucu&Oluşturucu
+     * Karmaşık nesneleri adım adım oluşturmak diyebiliriz.
+     *
+     * Kod u daha okunabilir hale getiriyor...
+     *
+     *
+     *
+     * Örn:
+     * Emlak ve Ev nesnelerimiz olsun
+     * Emlakçı evleri kendi listesine eklesin.
+     * Yalnız karmaşık bir eve ihtiyacımız var.
+     * @param args
+     */
     public static void main(String[] args) {
         Ev ev1 = EvBuilder.startNormalEvBuilder("İstanbul","Ümraniye","Tatlısu",2008,3)
                 .setCocukParki(true)

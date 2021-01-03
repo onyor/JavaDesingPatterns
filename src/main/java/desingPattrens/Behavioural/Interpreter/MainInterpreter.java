@@ -5,6 +5,15 @@ import main.java.desingPattrens.Behavioural.Interpreter.yorumlayici.KargaDiliInt
 import main.java.desingPattrens.Behavioural.Interpreter.yorumlayici.KusDiliInterpreter;
 
 public class MainInterpreter {
+    /**
+     * Interpreter -> Yorumlayıcı
+     * Belirli bir düzeyde kendi içinde bir mantıkla yazılmış kendi gramer'i olan bir yapıyı yorumlamak için uygun bir tasarım kalıbıdır.
+     *
+     * Örn:
+     * Kuş dili -> ca ce
+     * Karga dili -> ga ge
+     * @param args
+     */
     public static void main(String[] args) {
         String kusSozu = getKusSozu();
         String kargaSozu = getKargaSozu();

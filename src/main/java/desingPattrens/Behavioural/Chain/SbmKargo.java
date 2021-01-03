@@ -6,13 +6,14 @@ public class SbmKargo {
         AnkaraSube ankaraSube = new AnkaraSube();
         IstanbulSube istanbulSube = new IstanbulSube();
         AntalyaSube antalyaSube = new AntalyaSube();
+        KarsSube karsSube=new KarsSube();
 
         KargoSirketi sbmKargo = cankiriSube
                 .setSonrakiKargoSirketi(ankaraSube
                         .setSonrakiKargoSirketi(istanbulSube
-                                .setSonrakiKargoSirketi(antalyaSube)
-                        )
-                );
+                                .setSonrakiKargoSirketi(antalyaSube
+                                    .setSonrakiKargoSirketi(karsSube
+                                    ))));
 
         return sbmKargo;
     }

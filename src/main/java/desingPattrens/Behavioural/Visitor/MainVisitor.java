@@ -5,8 +5,20 @@ import main.java.desingPattrens.Behavioural.Visitor.saglikBakanligi.*;
 
 public class MainVisitor {
     public static void main(String[] args) {
-
-
+        /**
+         * Visitor -> Ziyaretçi
+         * Üzerinde çaıştığımız elementlerin yada modüllerin class'larında bir değişiklik yapmadan yeni bir işlem tanımlamamıza olanak sağlar.
+         * Eğer bu Visitor Desing pattern' e konu olacak ana classlar üzerinde bir değişiklik olmayacaksa bu desing pattern'in kullanılması gerekir.
+         * Eğer o tarafta bir değişkenlik durummu varsa oradaki yapılacak her ekleme her değişiklik bizim tüm visitor class'larımızda değişiklik yapmaya zorlayacaktır.
+         * Bu yüzden bu maddelere dikkat edilmeli.
+         *
+         * Örn:
+         * Günümüzde ki günlük korona virüs tablosu
+         * Hastane de ki hastalar
+         * İlçedeki
+         * İldeki
+         * Ülkedeki hastalar
+         */
 
         Hasta onur = new Hasta("Ahmet", EnumHastalik.COVID, EnumHastaDurumu.AGIR_HASTA);
         Hasta secil = new Hasta("Ahmet", EnumHastalik.COVID, EnumHastaDurumu.IYILESTI);
