@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c286b66-130f-4703-bba8-74d1c96673ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Chain/KarsSube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Behavioural/Chain/EnumIl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Behavioural/Chain/EnumIl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Behavioural/Chain/MainChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Behavioural/Chain/MainChain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Behavioural/Chain/SbmKargo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Behavioural/Chain/SbmKargo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Creational/Prototype/MainPrototype.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Creational/Prototype/MainPrototype.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Structural/Bridge/BridgeIlk/Bilgisayar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Structural/Bridge/BridgeIlk/Bilgisayar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Structural/Bridge/MainBridge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingPattrens/Structural/Bridge/MainBridge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Interpreter/MainInterpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Interpreter/MainInterpreter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Mediator/MainMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Mediator/MainMediator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Strategy/MainStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Strategy/MainStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Visitor/MainVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Behavioural/Visitor/MainVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Creational/Builder/MainBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Creational/Builder/MainBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Structural/Composite/compositeSon/MainComposite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Structural/Composite/compositeSon/MainComposite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Structural/Decorator/MainDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Structural/Decorator/MainDecorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Structural/Facade/MainFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesingPatterns/main/java/desingpattrens/Structural/Facade/MainFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Chain/EnumIl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Chain/EnumIl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Chain/MainChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Chain/MainChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Chain/SbmKargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Chain/SbmKargo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Interpreter/MainInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Interpreter/MainInterpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/MainMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Mediator/MainMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Strategy/MainStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Strategy/MainStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Template/MainTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Template/MainTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Visitor/MainVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Visitor/MainVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Visitor/saglikBakanligi/Hastane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Behavioural/Visitor/saglikBakanligi/Hastane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Creational/Builder/Emlakci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Creational/Builder/Emlakci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Creational/Builder/MainBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Creational/Builder/MainBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Creational/Prototype/MainPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Creational/Prototype/MainPrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Adapter/MainAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Adapter/MainAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/BridgeIlk/Bilgisayar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/BridgeIlk/Bilgisayar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/MainBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Bridge/MainBridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Composite/compositeSon/MainComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Composite/compositeSon/MainComposite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Decorator/LinedReportDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Decorator/LinedReportDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Decorator/MainDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Decorator/MainDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Decorator/SmallReportDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Decorator/SmallReportDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Facade/MainFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Facade/MainFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Flyweight/Asker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Flyweight/Asker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Proxy/MainProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingPattrens/Structural/Proxy/MainProxy.java" afterDir="false" />
-    </list>
+    <list default="true" id="9c286b66-130f-4703-bba8-74d1c96673ae" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -352,21 +313,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BridgeDeneme" />
+      <item itemvalue="Application.Emlakci" />
       <item itemvalue="Application.MainBuilder" />
+      <item itemvalue="Application.MainChain" />
       <item itemvalue="Application.MainComposite" />
       <item itemvalue="Application.MainDecorator" />
       <item itemvalue="Application.MainFacade" />
       <item itemvalue="Application.MainFactory" />
+      <item itemvalue="Application.MainFlyweigth" />
       <item itemvalue="Application.MainInterpreter" />
       <item itemvalue="Application.MainMediator" />
+      <item itemvalue="Application.MainPrototype" />
       <item itemvalue="Application.MainSingleton" />
       <item itemvalue="Application.MainStrategy" />
       <item itemvalue="Application.MainVisitor" />
-      <item itemvalue="Application.MainFlyweigth" />
-      <item itemvalue="Application.MainPrototype" />
-      <item itemvalue="Application.MainChain" />
-      <item itemvalue="Application.BridgeDeneme" />
-      <item itemvalue="Application.Emlakci" />
     </list>
     <recent_temporary>
       <list>
